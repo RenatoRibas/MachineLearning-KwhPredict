@@ -5,7 +5,11 @@
   <img src="Images/Logo.png" alt="Logo">
 </div>
 
+
 ### Integrantes:
+* [Vitor Henrique Pereira](https://github.com/RenatoRibas)
+* [Lucas de Castro Zanoni](https://github.com/Castrozan)
+* [Keniel Alves Nunes](https://github.com/KenielDev)
 * [Renato Ribas Campos](https://github.com/RenatoRibas)
 
 
