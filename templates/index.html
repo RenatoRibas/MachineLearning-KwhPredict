@@ -1,0 +1,43 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predição com Flask</title>
+</head>
+<body>
+    <h1>Predição com Flask</h1>
+    <button onclick="fazerPredicao()">Fazer Predição</button>
+    <p id="resultado"></p>
+
+    <script>
+        function fazerPredicao() {
+            // Simular dados de entrada
+            var dados = {
+                'features': {
+                    'Lagging_Current_Reactive.Power_kVarh': 3.0,
+                    'Leading_Current_Reactive_Power_kVarh': 4.0,
+                    'CO2(tCO2)': 1.0,
+                    'Lagging_Current_Power_Factor': 2.0
+                    // Adicione outras características conforme necessário
+                }
+            };
+            // Realizar a requisição POST para /predict
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dados)
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Exibir o resultado na página
+                document.getElementById('resultado').innerText = 'Resultado da predição: ' + JSON.stringify(data);
+            })
+            .catch(error => console.error('Erro:', error));
+        }
+    </script>
+</body>
+</html>
