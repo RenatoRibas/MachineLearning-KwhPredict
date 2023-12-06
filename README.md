@@ -1,6 +1,3 @@
-## Projeto: Pipeline completo de machine learning
-# Previsão Sustentável de Consumo de Energia na Indústria Siderúrgica
-
 <div align="center">
   <img src="src\Images\Logo.png" alt="Logo">
 </div>
