@@ -25,11 +25,8 @@ def predict():
         # Extraia as características e reordene conforme necessário
         features = pd.DataFrame([data['features']])
         predictions = model.predict(features)
-
-        # Formate as previsões em um formato adequado para resposta
-        output = {'predictions': predictions.tolist()}
-
-        return jsonify(output)
+        
+        return str(predictions.tolist()).replace('[','').replace(']', '')
 
     except Exception as e:
         # Em caso de erro, retorne uma resposta apropriada
