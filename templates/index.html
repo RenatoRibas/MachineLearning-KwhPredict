@@ -1,11 +1,8 @@
 <!-- templates/index.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Predição com Flask</title>
-</head>
+{% extends 'base.html' %}
+
+{% block content %}
+
 <body>
     <h1>Predição com Flask</h1>
     <button onclick="fazerPredicao()">Fazer Predição</button>
@@ -31,13 +28,13 @@
                 },
                 body: JSON.stringify(dados)
             })
-            .then(response => response.json())
-            .then(data => {
-                // Exibir o resultado na página
-                document.getElementById('resultado').innerText = 'Resultado da predição: ' + JSON.stringify(data);
-            })
-            .catch(error => console.error('Erro:', error));
+                .then(response => response.json())
+                .then(data => {
+                    // Exibir o resultado na página
+                    document.getElementById('resultado').innerText = 'Resultado da predição: ' + JSON.stringify(data);
+                })
+                .catch(error => console.error('Erro:', error));
         }
     </script>
 </body>
-</html>
+{% endblock %}

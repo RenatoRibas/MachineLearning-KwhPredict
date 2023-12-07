@@ -4,12 +4,12 @@ import joblib
 
 app = Flask(__name__)
 
-# Carregue o modelo treinado
-model_path = 'C:\\Users\\Renato Ribas\\Desktop\\Engenharia de Software\\5-Machine Learning\\ABP\\notebooks\\modelo_final_knn.pkl'
+model_path = './notebooks/modelo_final_knn.pkl'
 model = joblib.load(model_path)
 
 @app.route('/')
 def home():
+    # Carregue o modelo treinado
     return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
@@ -35,6 +35,11 @@ def predict():
         # Em caso de erro, retorne uma resposta apropriada
         error_message = {'error': str(e)}
         return jsonify(error_message), 400
+    
+#ROTA DO SOBRE
+@app.route('/sobre')
+def sobre():
+    return render_template('sobre.html')    
 
 if __name__ == '__main__':
     app.run(port=5000)
