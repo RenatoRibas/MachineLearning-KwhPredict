@@ -38,5 +38,10 @@ def predict():
 def sobre():
     return render_template('sobre.html')    
 
+#ROTA DO NOTEBOOKS
+@app.route('/notebook')
+def notebook():
+    return render_template('notebook.html')    
+
 if __name__ == '__main__':
     app.run(port=5000)
