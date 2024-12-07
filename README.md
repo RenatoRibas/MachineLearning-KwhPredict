@@ -6,7 +6,7 @@
 <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" target="_blank"></a>
 <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a>
 <a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/matplotlib-013243?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a>
-<a href="https://www.canva.com/design/DAF1ppqI-pM/ZpkjxW8exNZbXfH5Rti8iA/edit?utm_content=DAF1ppqI-pM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><img src="https://img.shields.io/badge/Apresentação-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"></a>
+<a href="https://www.canva.com/design/DAF1ppqI-pM/ZpkjxW8exNZbXfH5Rti8iA/edit?utm_content=DAF1ppqI-pM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><img src="https://img.shields.io/badge/Apresentação-00C4CC?style=for-the-badge&logo=canva&logoColor=white"></a>
 
 > Este projeto visa desenvolver um pipeline completo de machine learning para a previsão sustentável de consumo de energia na indústria siderúrgica.
 
@@ -17,6 +17,7 @@
 </div>
 
 </div>
+
 ### Integrantes:
 * [Vitor Henrique Pereira](https://github.com/)
 * [Lucas de Castro Zanoni](https://github.com/Castrozan)
