@@ -1,7 +1,17 @@
+
+<h1 align="center">📊 Previsão - Consumo de energia na Indústria Siderúrgica </h1> 
+<div align="center">
+<a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" target="_blank"></a>
+<a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" target="_blank"></a>
+<a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" target="_blank"></a>
+<a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a>
+<a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/matplotlib-013243?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a>
+
 <div align="center">
   <img src="src\Images\Logo.png" alt="Logo">
 </div>
 
+</div>
 ### Integrantes:
 * [Vitor Henrique Pereira](https://github.com/)
 * [Lucas de Castro Zanoni](https://github.com/Castrozan)
