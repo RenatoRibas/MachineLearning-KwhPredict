@@ -1,6 +1,6 @@
 
 <h1 align="center" style="font-size: 24px;">📊 Previsão - Consumo de energia na Indústria Siderúrgica</h1>
-<div align="center">
+
 <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" target="_blank"></a>
 <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" target="_blank"></a>
 <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" target="_blank"></a>
@@ -18,6 +18,7 @@
 * [Keniel Alves Nunes](https://github.com/KenielDev)
 * [Renato Ribas Campos](https://github.com/RenatoRibas)
 
+---
 
 ### **Introdução**
 
