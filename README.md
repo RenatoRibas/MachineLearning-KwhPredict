@@ -13,12 +13,16 @@
 ---
 
 ### Integrantes:
+* [Renato Ribas Campos](https://github.com/RenatoRibas)
 * [Vitor Henrique Pereira](https://github.com/)
 * [Lucas de Castro Zanoni](https://github.com/Castrozan)
 * [Keniel Alves Nunes](https://github.com/KenielDev)
-* [Renato Ribas Campos](https://github.com/RenatoRibas)
 
 ---
+
+<div align="center">
+  <img src="src\Images\Dataset.png" alt="Logo">
+</div>
 
 ### **Introdução**
 
