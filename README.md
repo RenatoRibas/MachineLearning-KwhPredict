@@ -1,5 +1,5 @@
 
-<h1 align="center" style="font-size: 24px;">📊 Previsão - Consumo de energia na Indústria Siderúrgica</h1>
+<h1 align="center" style="font-size: 10px;">📊 Previsão - Consumo de energia na Indústria Siderúrgica</h1>
 
 <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" target="_blank"></a>
 <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" target="_blank"></a>
