@@ -1,5 +1,5 @@
 
-<h1 align="center">📊 Previsão - Consumo de energia na Indústria Siderúrgica </h1> 
+<h1 align="center" style="font-size: 24px;">📊 Previsão - Consumo de energia na Indústria Siderúrgica</h1>
 <div align="center">
 <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" target="_blank"></a>
 <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" target="_blank"></a>
@@ -12,17 +12,16 @@
 
 ---
 
-<div align="center">
-  <img src="src\Images\Logo.png" alt="Logo">
-</div>
-
-</div>
-
 ### Integrantes:
 * [Vitor Henrique Pereira](https://github.com/)
 * [Lucas de Castro Zanoni](https://github.com/Castrozan)
 * [Keniel Alves Nunes](https://github.com/KenielDev)
 * [Renato Ribas Campos](https://github.com/RenatoRibas)
+
+
+### **Introdução**
+
+Este projeto descreve uma arquitetura de pipeline de machine learning, onde exploramos a previsão de consumo de energia na indústria siderúrgica. Através de um modelo de regressão linear, buscamos otimizar o uso de energia, contribuindo para práticas mais sustentáveis e eficientes.
 
 
 ### Importância do Projeto
